@@ -8,6 +8,9 @@ authors:
 version: "1.0.0"
 date-released: "2026-11-03"
 url: "https://github.com/binayakverz/the-ai-literacy-divide"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23103700"
 license: "CC-BY-4.0"
 abstract: >-
   This research examines disparities in access, perceived AI literacy,
