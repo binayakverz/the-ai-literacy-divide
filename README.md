@@ -15,9 +15,11 @@
 <br/>
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7901--0926-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-7901-0926)
+[![Version DOI](https://img.shields.io/badge/Version_DOI-10.5281%2Fzenodo.23103701-024DAD?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23103701)
+[![Concept DOI](https://img.shields.io/badge/Concept_DOI-10.5281%2Fzenodo.23103700-1D76DB?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23103700)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-38BDF8?style=for-the-badge&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
-[![Status: Preprint](https://img.shields.io/badge/Status-Preprint%20Working%20Paper-FACC15?style=for-the-badge&labelColor=0D1117)](https://github.com/binayakverz/the-ai-literacy-divide)
-[![Archive: Zenodo](https://img.shields.io/badge/Zenodo-Open%20Archive-024DAD?style=for-the-badge&logo=zenodo&logoColor=white)](https://zenodo.org/records/23103701)
+[![Status: Published](https://img.shields.io/badge/Status-Published-22C55E?style=for-the-badge&labelColor=0D1117)](https://zenodo.org/records/23103701)
+[![Archive: Zenodo](https://img.shields.io/badge/Zenodo-Open%20Access-024DAD?style=for-the-badge&logo=zenodo&logoColor=white)](https://zenodo.org/records/23103701)
 
 <br/>
 
@@ -259,26 +261,26 @@ The study incorporates four foundational figures communicating its conceptual bo
 
 ---
 
-## 9. Planned Repository Structure
+## 9. Repository Structure
 
-The repository maintains documentation, manuscript drafts, and reproducibility materials. Files and directories are organized according to the following planned layout; items not yet populated will be incorporated progressively.
+The repository contains the published manuscript, original figures, methodological documentation, references, citation metadata, and supporting research materials. The structure below reflects the repository's current organization.
 
 - 📁 **`the-ai-literacy-divide/`**
   - 📄 **`README.md`** — Primary research documentation and synthesis
   - 📄 **`LICENSE`** — Repository licensing documentation
   - 📄 **`CITATION.cff`** — Machine-readable citation metadata
   - 📁 **`manuscript/`**
-    - 📑 **`THE_AI_LITERACY_DIVIDE.pdf`** — Complete research preprint manuscript
+    - 📑 **`THE_AI_LITERACY_DIVIDE.pdf`** — Complete published research manuscript
     - 📝 **`THE_AI_LITERACY_DIVIDE.docx`**
   - 📁 **`figures/`**
-    - 🖼️ `figure_1_conceptual_framework.png`
-    - 🖼️ `figure_2_evidence_architecture.png`
-    - 🖼️ `figure_3_ai_literacy_profile.png`
-    - 🖼️ `figure_4_evidence_map.png`
+    - 🖼️ `figure-1-conceptual-framework.png`
+    - 🖼️ `figure-2-evidence-architecture.png`
+    - 🖼️ `figure-3-ai-literacy-item-profile.png`
+    - 🖼️ `figure-4-evidence-map.png`
   - 📁 **`tables/`** — Structured analytical and cross-dataset comparison tables
   - 📁 **`methodology/`** — Variable coding, operational definitions, and protocol documentation
-  - 📁 **`analysis/`** — Statistical evaluation specifications and computational workflows
-  - 📁 **`supplementary/`** — Analytical appendices and data dictionaries
+  - 📁 **`analysis/`** — Statistical evaluation specifications and computational workflows (if/when included)
+  - 📁 **`supplementary/`** — Supplementary analytical materials (if/when included)
   - 📁 **`references/`** — Bibliographic references (.bib and .md)
 
 ---
@@ -350,7 +352,10 @@ The repository is structured to document all methodological and analytical param
 
 ## 13. Citation and Metadata
 
-To reference this preprint or its accompanying analytical framework, please consult the repository's archived version on [Zenodo](https://zenodo.org/records/23103701) or cite the work using the provisional bibliographic metadata below.
+To cite this published research, use the version-specific DOI for v1. The Concept DOI identifies the research record across all versions.
+
+- **Version DOI (v1):** [10.5281/zenodo.23103701](https://doi.org/10.5281/zenodo.23103701)
+- **Concept DOI (all versions):** [10.5281/zenodo.23103700](https://doi.org/10.5281/zenodo.23103700)
 
 ### BibTeX
 
@@ -368,7 +373,7 @@ To reference this preprint or its accompanying analytical framework, please cons
 
 ### APA (7th Edition)
 
-> Bhal Chandra, B. (2026). *The AI Literacy Divide: Access, Capability, and Inequality in the Age of Generative AI*. BINAYAKVERZ Research Preprint Series. https://github.com/binayakverz/the-ai-literacy-divide
+> Bhal Chandra, B. (2026). *The AI Literacy Divide: Access, Capability, and Inequality in the Age of Generative AI* (Version 1). Zenodo. https://doi.org/10.5281/zenodo.23103701
 
 ---
 
