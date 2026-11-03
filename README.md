@@ -1,21 +1,3 @@
-Aapne bilkul sahi pakda hai. Screenshots se 2 clear issues dikh rahe hain:
-
-1. **Broken ASCII Box:** Diagram ke line characters GitHub ke dark theme aur alag screen size par phat kar toot gaye hain.
-
-
-2. **Broken Formatting Blocks:** Beech-beech mein alag-alag gray code boxes ban gaye hain jisse preview fragmented lag raha hai.
-
-
-
-In dono ko fix karne ke liye:
-
-* Broken ASCII lines ko hata kar **Mermaid interactive flowchart (`mermaid`)** me badal diya hai, jo GitHub par automatic perfect alignment, clear border aur sharp arrows ke sath render hota hai.
-* BibTeX ke link syntax ko clean kar diya hai taaki koi extra gray snippet na baney.
-
-
-* Poora file **sirf aur sirf ek single unbroken code-block** mein yahan diya gaya hai:
-
-```markdown
 <div align="center">
 
 # The AI Literacy Divide
@@ -78,7 +60,7 @@ $$\mathbf{Digital\ Divide} \longrightarrow \mathbf{AI\ Access\ Divide} \longrigh
 
 > **Epistemological Boundary:** This sequence represents a **proposed conceptual and measurement architecture**, formulated to isolate distinct evaluation levels. It is **not** presented as an empirically verified causal pathway.
 
-```mermaid
+
 flowchart LR
     A[Digital Divide] --> B[AI Access Divide]
     B --> C[AI Literacy Divide]
