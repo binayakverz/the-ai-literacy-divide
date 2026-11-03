@@ -1,3 +1,21 @@
+Aapne bilkul sahi pakda hai. Screenshots se 2 clear issues dikh rahe hain:
+
+1. **Broken ASCII Box:** Diagram ke line characters GitHub ke dark theme aur alag screen size par phat kar toot gaye hain.
+
+
+2. **Broken Formatting Blocks:** Beech-beech mein alag-alag gray code boxes ban gaye hain jisse preview fragmented lag raha hai.
+
+
+
+In dono ko fix karne ke liye:
+
+* Broken ASCII lines ko hata kar **Mermaid interactive flowchart (`mermaid`)** me badal diya hai, jo GitHub par automatic perfect alignment, clear border aur sharp arrows ke sath render hota hai.
+* BibTeX ke link syntax ko clean kar diya hai taaki koi extra gray snippet na baney.
+
+
+* Poora file **sirf aur sirf ek single unbroken code-block** mein yahan diya gaya hai:
+
+```markdown
 <div align="center">
 
 # The AI Literacy Divide
@@ -29,201 +47,241 @@
 
 ## 1. Research Overview
 
-Artificial intelligence is becoming increasingly accessible, but access alone does not establish whether individuals possess the knowledge, skills, and capabilities required to use AI effectively.
+Artificial intelligence technologies have become increasingly accessible across global consumer, educational, and enterprise interfaces. However, infrastructure deployment and model accessibility alone do not determine whether individuals possess the conceptual understanding, evaluative acumen, and applied competencies required to employ AI tools effectively.
 
-This research investigates the emerging **AI literacy divide** through a multidimensional perspective that distinguishes:
+This investigation examines the emerging multidimensional disparities surrounding artificial intelligence by operationalizing a structured continuum of technological stratification:
 
-> **Access ➔ Awareness ➔ Perceived AI Literacy ➔ Demonstrated Capability ➔ Effective Use ➔ Realised Individual Benefit**
+$$\text{Digital Divide} \longrightarrow \text{AI Access Divide} \longrightarrow \text{AI Literacy Divide} \longrightarrow \text{Capability Divide} \longrightarrow \text{Effective-Use Divide} \longrightarrow \text{Benefit Divide}$$
 
-The study combines individual-level empirical evidence from the **FITPED AI Literacy dataset** with independent international and population-level evidence from **Eurostat, ITU, World Bank, UNESCO, OECD, IEA, Pew Research Center, Stanford AI Index, and the International Labour Organization**.
+The study conducts a comparative quantitative analysis of individual-level empirical data from the **FITPED AI Literacy dataset**, synthesized alongside independent international and population-level indicators from **Eurostat, ITU, World Bank, UNESCO, OECD, IEA, Pew Research Center, Stanford AI Index, and the International Labour Organization (ILO)**. 
 
-The central concern is not simply who can access AI technologies, but who can understand, use, and benefit from them.
+The principal objective is to look beyond raw technological access and evaluate who understands, who can competently deploy, and who ultimately extracts tangible benefit from generative AI systems.
 
 ---
 
 ## 2. Research Objectives
 
-1. **Examine inequalities in perceived AI literacy** using individual-level empirical evidence.
-2. **Investigate associations between AI literacy and related educational, motivational, behavioural, and psychological constructs.**
-3. **Examine differences in generative AI use** across demographic, educational, geographical, and socioeconomic contexts using independent international datasets.
-4. **Distinguish digital access, AI awareness, perceived AI literacy, demonstrated capability, and effective AI use** as separate measurement dimensions.
-5. **Identify evidence and measurement gaps** that prevent a comprehensive assessment of the transition from AI access to meaningful individual benefit.
-6. **Develop an integrated measurement architecture** for understanding multidimensional AI inequality.
+1. **Examine inequalities in perceived AI literacy** utilizing individual-level empirical evidence from structured psychometric administrations.
+2. **Investigate statistical associations between AI literacy and related constructs**, including educational, motivational, behavioral, and psychological dimensions.
+3. **Analyze disparities in generative AI usage across demographic, educational, geographical, and socioeconomic contexts** utilizing independent, cross-national datasets.
+4. **Distinguish digital access, AI awareness, perceived AI literacy, demonstrated capability, and effective AI use** as conceptually separate and methodologically distinct measurement dimensions.
+5. **Identify empirical and psychometric measurement gaps** that currently prevent a unified assessment of the transition from baseline AI access to realised individual benefit.
+6. **Formulate an integrated measurement architecture** to provide a rigorous methodological foundation for analyzing multidimensional AI inequality.
 
 ---
 
 ## 3. Conceptual Framework
 
-The study proposes an integrated conceptual and measurement architecture:
+The study formalizes an integrated conceptual and measurement architecture to assess the stratified stages of AI-related inequality:
 
-**Digital Divide ➔ AI Access Divide ➔ AI Literacy Divide ➔ Capability Divide ➔ Effective-Use Divide ➔ Benefit Divide**
+$$\mathbf{Digital\ Divide} \longrightarrow \mathbf{AI\ Access\ Divide} \longrightarrow \mathbf{AI\ Literacy\ Divide} \longrightarrow \mathbf{Capability\ Divide} \longrightarrow \mathbf{Effective\text{-}Use\ Divide} \longrightarrow \mathbf{Benefit\ Divide}$$
 
-These dimensions represent conceptually distinct stages of AI-related inequality. Importantly, this framework is a proposed conceptual and measurement architecture. It is not presented as an empirically demonstrated causal pathway.
+> **Epistemological Boundary:** This sequence represents a **proposed conceptual and measurement architecture**, formulated to isolate distinct evaluation levels. It is **not** presented as an empirically verified causal pathway.
 
-### Analytical Distinctions Maintained
-* Access is not equivalent to AI literacy.
-* Perceived AI literacy is not equivalent to demonstrated AI capability.
-* AI use is not equivalent to effective AI use.
-* Educational attainment is not equivalent to AI capability.
-* Association does not establish causation.
-* Country-level indicators cannot automatically be interpreted as individual-level evidence.
+```mermaid
+flowchart LR
+    A[Digital Divide] --> B[AI Access Divide]
+    B --> C[AI Literacy Divide]
+    C --> D[Capability Divide]
+    D --> E[Effective-Use Divide]
+    E --> F[Benefit Divide]
+    
+    style A fill:#0d1117,stroke:#38bdf8,stroke-width:1px,color:#fff
+    style B fill:#0d1117,stroke:#38bdf8,stroke-width:1px,color:#fff
+    style C fill:#0d1117,stroke:#38bdf8,stroke-width:1px,color:#fff
+    style D fill:#0d1117,stroke:#facc15,stroke-width:1px,color:#fff
+    style E fill:#0d1117,stroke:#facc15,stroke-width:1px,color:#fff
+    style F fill:#0d1117,stroke:#22c55e,stroke-width:1px,color:#fff
+
+```
+
+### Essential Methodological Distinctions
+
+To avoid systemic measurement errors and the conflation of subjective perceptions with functional outputs, the investigation strictly maintains the following analytical demarcations:
+
+* **Access $\neq$ AI Literacy:** Physical connectivity, interface access, and raw model availability do not constitute cognitive comprehension or literacy.
+* **Perceived AI Literacy $\neq$ Demonstrated AI Capability:** Self-reported literacy scales capture perceived self-efficacy; they do not serve as direct proxies for verified, performance-tested operational competence.
+* **AI Use $\neq$ Effective AI Use:** Gross frequency of generative AI interaction cannot be equated with critical, safe, or optimal deployment.
+* **Educational Attainment $\neq$ AI Capability:** Formal academic credentials do not directly correspond to specialized AI literacy or prompt/model steering proficiency.
+* **Association $\neq$ Causation:** Documented statistical correlations represent relational tendencies, not established causal mechanisms.
+* **Protection Against Ecological Fallacy:** Aggregated, country-level demographic indicators cannot be interpreted as direct individual-level capability evidence.
+* **Dimension of AI Awareness:** AI awareness is operationalized as a distinct cognitive measurement dimension rather than an empirically established causal stage.
 
 ---
 
 ## 4. Research Methodology
 
-**Research Design:** Secondary-data comparative quantitative analysis combined with structured cross-dataset evidence synthesis.
+**Research Design:** Secondary-data comparative quantitative analysis paired with structured, non-pooled cross-dataset evidence synthesis.
 
 ### 4.1 Primary Empirical Dataset (FITPED)
-The FITPED AI Literacy questionnaire dataset provides the primary individual-level empirical evidence:
-* **Total survey records:** 1,205
-* **Unique participants:** 1,146
-* **Repeated participant IDs:** 59
-* **Instrument:** Five AI Literacy questionnaire items (L1–L5)
 
-The primary analysis examines descriptive statistics, scale reliability, group differences, associations, exploratory regression, and a limited matched-participant analysis.
+Primary individual-level empirical investigations utilize the FITPED AI Literacy questionnaire administration:
 
-### 4.2 Additional Evidence Sources
+* **Total Survey Records:** 1,205
+* **Unique Participants:** 1,146
+* **Repeated Participant IDs:** 59
+* **Measurement Scale:** 5-item Likert instrument ($L_1 - L_5$) measuring self-reported perceived AI literacy.
 
-| Source | Primary Evidence Domain |
-| :--- | :--- |
-| **FITPED** | Individual-level perceived AI literacy |
-| **Eurostat** | Generative AI use and demographic inequalities |
-| **ITU DataHub** | Internet access and digital connectivity |
-| **World Bank WDI** | Internet-use indicators |
-| **UNESCO UIS** | Digital literacy frameworks |
-| **OECD PIAAC** | Adult digital and problem-solving competencies |
-| **IEA ICILS** | Computer and information literacy |
-| **Pew Research Center** | AI awareness |
-| **Stanford AI Index** | AI adoption context |
-| **International Labour Organization** | Occupational exposure to GenAI |
-| **World Bank / Semrush** | Consumer-facing GenAI adoption proxies |
+Analytical procedures include descriptive summaries, psychometric reliability estimations, non-parametric correlation matrices, exploratory group comparisons, exploratory linear regressions, and an exploratory analysis of the matched longitudinal subset.
 
-### 4.3 Analytical Principles
-* Independent datasets are not pooled at respondent level.
-* Aggregate indicators retain their original measurement levels.
-* Self-reported AI literacy is not interpreted as demonstrated capability.
-* AI-use frequency is not interpreted as effective use.
-* No unsupported causal relationships are claimed.
-* No artificial composite index is imposed across incompatible datasets.
+### 4.2 Cross-Dataset Synthesis Architecture
+
+| Data Source | Primary Evidence Domain | Operational Measurement Level |
+| --- | --- | --- |
+| **FITPED** | Individual-level perceived AI literacy & psychological scales | Micro (Individual Respondent) |
+| **Eurostat** | Generative AI usage stratified by demographic and regional factors | Macro / Regional (EU27 Aggregates) |
+| **ITU DataHub** | Telecommunication infrastructure, connectivity, and internet access | Macro / National (Global & Regional) |
+| **World Bank WDI** | National internet-use baselines and economic indicators | Macro / National (Country-Level) |
+| **UNESCO UIS** | Digital literacy frameworks and institutional indicators | Global Normative Frameworks |
+| **OECD PIAAC** | Adult cognitive, computational, and digital problem-solving competencies | Cross-National Standardized Testing |
+| **IEA ICILS** | Standardized student computer and information literacy metrics | Cross-National Student Assessment |
+| **Pew Research Center** | Public AI awareness, perceptions, and conceptual familiarity | Population Sample Surveys |
+| **Stanford AI Index** | Computational adoption context and technical capacity trends | Global Industry & Academic Metrics |
+| **ILO** | Occupational exposure metrics and task automation vulnerability | Labor Sector Aggregate Projections |
+| **World Bank / Semrush** | Web-traffic indicators of consumer-facing GenAI platform adoption | Global Platform Traffic Proxies |
+
+### 4.3 Methodological and Analytical Principles
+
+* **Absence of Micro-Pooling:** Independent empirical datasets are evaluated within their distinct scopes and are strictly not pooled at the individual respondent level.
+* **Measurement Level Fidelity:** Macro-level aggregate indicators retain their original unit of observation and are not disaggregated to infer individual characteristics.
+* **Instrument Boundaries:** Self-reported questionnaire scores are analyzed strictly as self-assessments, not objective skill benchmarks.
+* **No Spurious Composite Aggregation:** No artificial composite indices are constructed across methodologically disparate or unharmonized data collections.
+* **Causal Restraint:** All statistical assertions avoid unverified causal claims.
 
 ---
 
 ## 5. Key Empirical Findings
 
-### 5.1 FITPED AI Literacy Results
+### 5.1 FITPED AI Literacy Scale Psychometrics
 
-| Indicator | Result |
-| :--- | :--- |
-| **Survey records** | 1,205 |
-| **Unique participants** | 1,146 |
-| **Mean AI Literacy** | **3.991 / 5** |
-| **Standard deviation** | 0.676 |
+| Metric Parameter | Empirical Value |
+| --- | --- |
+| **Total Survey Records** | 1,205 |
+| **Unique Participants** | 1,146 |
+| **Scale Mean** | **3.991 / 5.000** |
+| **Standard Deviation ($\sigma$)** | 0.676 |
 | **Median** | 4.000 |
-| **Cronbach's alpha** | **0.688** (Moderate internal consistency) |
+| **Internal Consistency (Cronbach's $\alpha$)** | **0.688** (Moderate reliability; original 5-item scale retained) |
 
-#### Item-Level Mean Scores
-* **L1:** 4.559
-* **L2:** 4.529
-* **L3:** 3.954
-* **L4:** 3.230
-* **L5:** 3.684
+#### Item-Level Mean Trajectory ($L_1 - L_5$)
 
-*(The original five-item instrument is retained in the analysis.)*
+* **Item $L_1$:** `4.559` — Basic conceptual familiarity with AI technology.
+* **Item $L_2$:** `4.529` — Awareness of AI applications in routine digital environments.
+* **Item $L_3$:** `3.954` — Contextual ability to utilize AI platforms.
+* **Item $L_4$:** `3.230` — Comprehension of internal computational and structural mechanisms *(Pronounced Deficit)*.
+* **Item $L_5$:** `3.684` — Applied self-efficacy in executing tasks using AI.
 
-### 5.2 Associations with AI Literacy (Spearman's ρ)
+### 5.2 Psychological and Motivational Correlates (Spearman's $\rho$)
 
-| Construct | Spearman's ρ |
-| :--- | :--- |
-| **AI Readiness** | 0.580 |
-| **Relevance** | 0.484 |
-| **Career Motivation** | 0.450 |
-| **Behavioural Intention** | 0.407 |
-| **Social Goods** | 0.367 |
-| **Intrinsic Motivation** | 0.365 |
-| **Confidence** | 0.335 |
-| **Satisfaction** | 0.330 |
-| **AI Anxiety** | -0.165 |
+Rank-order associations between perceived AI Literacy and related educational and psychological constructs:
 
-*(These are associations, not evidence of causal effects.)*
+| Evaluated Construct | Spearman's $\rho$ | Observed Relationship Magnitude |
+| --- | --- | --- |
+| **AI Readiness** | `+0.580` | Moderate-to-strong positive association |
+| **Relevance** | `+0.484` | Moderate positive association |
+| **Career Motivation** | `+0.450` | Moderate positive association |
+| **Behavioural Intention** | `+0.407` | Moderate positive association |
+| **Social Goods** | `+0.367` | Low-to-moderate positive association |
+| **Intrinsic Motivation** | `+0.365` | Low-to-moderate positive association |
+| **Confidence** | `+0.335` | Low-to-moderate positive association |
+| **Satisfaction** | `+0.330` | Low-to-moderate positive association |
+| **AI Anxiety** | `-0.165` | Weak inverse (negative) association |
 
-### 5.3 Demographic and Programme Differences (Observed Mean)
-* **Male participants:** 4.113
-* **Female participants:** 3.752
-* **IT programme participants:** 4.107
-* **Education programme participants:** 3.730
+*(Note: These correlation coefficients establish monotonic association and do not provide evidence of causal directionality.)*
 
-*(These comparisons describe the observed FITPED sample and should not be interpreted as nationally representative estimates.)*
+### 5.3 Observed Group Differences (FITPED Sample)
 
-### 5.4 International Evidence (Eurostat 2025 EU27)
-Eurostat's 2025 EU27 data indicate that **32.7%** of individuals aged 16–74 used generative AI. Reported use varied across demographic groups:
-* **Ages 16–24:** 63.8%
-* **Ages 65–74:** 8%
-* **Higher formal education:** 50%
-* **Low or no formal education:** 26%
-* **Cities:** 42%
-* **Rural areas:** 27%
+* **Gender Cohorts:** Male Participant Mean: `4.113` | Female Participant Mean: `3.752`
+* **Academic Disciplines:** IT Programme Participants: `4.107` | Education Programme Participants: `3.730`
 
-*(These figures demonstrate inequalities in reported generative AI use. They do not directly measure demonstrated AI capability.)*
+*(Epistemic Boundary: These group differences strictly describe the surveyed FITPED student cohort and must not be generalized as nationally representative estimates.)*
 
-### 5.5 India: Digital Access Inequality (ITU 2025)
+### 5.4 Cross-National Population Evidence (Eurostat 2025 EU27)
 
-| Indicator | Internet Use (%) |
-| :--- | :--- |
-| **India overall** | 70.0% |
-| **Urban population** | 79.9% |
-| **Rural population** | 64.9% |
-| **Male population** | 76.7% |
-| **Female population** | 63.1% |
+Eurostat 2025 population data indicate that across the EU27 population aged 16–74, **32.7%** reported having used generative AI. Marked stratifications appear across demographic dimensions:
 
-*(These indicators provide evidence of digital access inequalities in India. They should not be interpreted as estimates of AI literacy or GenAI capability.)*
+* **Age Distribution:**
+* Ages 16–24: `63.8%`
+* Ages 65–74: `8%`
+
+
+* **Educational Attainment:**
+* High Formal Educational Attainment (Tertiary): `50%`
+* Low or No Formal Educational Attainment: `26%`
+
+
+* **Geographical Density:**
+* Urban Centers (Cities): `42%`
+* Rural Areas: `27%`
+
+
+
+*(Epistemic Boundary: These metrics quantify self-reported adoption incidence; they do not measure performance-tested operational capability or effective critical deployment.)*
+
+### 5.5 Digital Infrastructure Baselines: India (ITU 2025)
+
+DataHub indicators from the International Telecommunication Union (2025) quantify baseline internet connectivity in India:
+
+| Population Segment | Internet Use Proportion (%) |
+| --- | --- |
+| **India Overall** | **70.0%** |
+| **Urban Population** | **79.9%** |
+| **Rural Population** | **64.9%** |
+| **Male Population** | **76.7%** |
+| **Female Population** | **63.1%** |
+
+*(Epistemic Boundary: These indicators provide empirical documentation of structural digital access inequality. They do not constitute estimates of AI literacy or GenAI capability.)*
 
 ---
 
 ## 6. Principal Research Contribution
 
-The principal contribution of this research is an **integrated measurement framework and cross-dataset empirical synthesis of multidimensional AI inequality**.
+The primary contribution of this research is the development of an **integrated multidimensional measurement architecture and a structured cross-dataset empirical synthesis** of emerging AI inequality.
 
-The study identifies an important measurement challenge:
-> Performance-based AI and GenAI literacy instruments are emerging, but current evidence remains insufficiently integrated, representative, harmonised, and longitudinal across the same individuals to connect access, demonstrated capability, effective use, and realised benefit.
+The investigation formally delineates a pervasive empirical measurement gap:
 
-The research therefore highlights the need to move beyond access and self-reported awareness towards more comprehensive assessment of demonstrated capability and meaningful outcomes. The study does not claim to establish a new population-wide AI literacy estimate or a causal pathway from access to individual benefit.
+> While public awareness and subjective self-reports are increasingly documented, the scientific literature currently lacks integrated, population-representative, psychometrically standardized, and longitudinal instruments capable of linking baseline technological access to demonstrated capability, verified effective use, and realised individual benefit across the same individuals.
+
+This research demonstrates the necessity of advancing beyond simple access metrics and self-reported awareness towards performance-tested capabilities and empirical evaluations of economic, educational, and cognitive outcomes. The study does not claim to establish a new population-wide AI literacy estimate or an empirically verified causal pathway.
 
 ---
 
 ## 7. Research Figures
 
-The research includes four principal figures:
+The study incorporates four foundational figures communicating its conceptual boundaries and findings:
+
 1. **Figure 1:** Integrated AI inequality measurement architecture.
-2. **Figure 2:** Empirical evidence architecture.
-3. **Figure 3:** FITPED AI Literacy item profile.
-4. **Figure 4:** AI inequality evidence map.
-
-The figures are intended to communicate the conceptual framework, evidence architecture, empirical results, and measurement boundaries.
+2. **Figure 2:** Empirical evidence architecture and cross-dataset synthesis.
+3. **Figure 3:** FITPED AI Literacy item-level profile and distribution.
+4. **Figure 4:** AI inequality evidence map across analytical dimensions.
 
 ---
 
-## 8. Limitations
+## 8. Limitations and Methodological Boundaries
 
-The findings must be interpreted in light of several limitations:
-* FITPED is a non-probability student sample and is concentrated in particular educational and geographical contexts.
-* AI Literacy is measured through self-reported questionnaire items.
-* The matched longitudinal subset contains only 59 participants.
-* Country and year differences are affected by sample composition.
-* The external datasets differ in population, measurement level, definitions, and reference periods.
-* Publicly available evidence remains fragmented for demonstrated GenAI capability, effective use, and realised individual benefit.
-* A complete individual-level access-to-capability-to-benefit pathway cannot be estimated using the available evidence.
+* **Non-Probability Sampling:** The FITPED dataset comprises a non-probability convenience sample of enrolled students within targeted educational and geographical settings.
+* **Subjective Measurement:** The primary AI literacy instrument measures self-reported perceived literacy, which is subject to self-assessment bias and Dunning-Kruger effects.
+* **Longitudinal Sample Attrition:** The matched multi-wave subset is limited to $N = 59$ repeated participant identifiers, restricting longitudinal causal inferences.
+* **Temporal and Regional Confounding:** Cross-national comparisons reflect differing reference periods, varying sample compositions, and localized institutional contexts.
+* **Dataset Incommensurability:** External international indicators vary significantly in measurement levels, sampling frames, operational definitions, and collection protocols.
+* **Absence of Harmonized Capability Metrics:** Publicly available empirical data regarding performance-tested GenAI capability, operational efficiency, and realised economic benefit remain fragmented.
+* **Non-Causal Architecture:** The current evidentiary baseline does not permit the statistical estimation of a unified, individual-level causal pathway from access to capability to benefit.
 
 ---
 
-## 9. Repository Structure
+## 9. Planned Repository Structure
+
+The repository maintains documentation, manuscript drafts, and reproducibility materials. Files and directories are organized according to the following layout (items not yet populated will be incorporated progressively):
 
 ```text
 the-ai-literacy-divide/
 │
-├── README.md
+├── README.md                      # Primary research documentation and synthesis
+├── LICENSE                        # Repository licensing documentation
+├── CITATION.cff                   # Machine-readable citation metadata
+│
 ├── manuscript/
-│   ├── THE_AI_LITERACY_DIVIDE.pdf
+│   ├── THE_AI_LITERACY_DIVIDE.pdf # Complete research preprint manuscript
 │   └── THE_AI_LITERACY_DIVIDE.docx
 │
 ├── figures/
@@ -232,13 +290,101 @@ the-ai-literacy-divide/
 │   ├── figure_3_ai_literacy_profile.png
 │   └── figure_4_evidence_map.png
 │
-├── tables/
-├── methodology/
-├── analysis/
-├── supplementary/
-├── references/
-│
-├── CITATION.cff
-├── LICENSE
-├── .gitignore
-└── CHANGELOG.md
+├── tables/                        # Structured analytical and cross-dataset comparison tables
+├── methodology/                   # Variable coding, operational definitions, and protocol documentation
+├── analysis/                      # Statistical evaluation specifications and computational workflows
+├── supplementary/                 # Analytical appendices and data dictionaries
+└── references/                    # Bibliographic references (.bib and .md)
+
+```
+
+---
+
+## 10. Data Availability and Research Integrity Safeguards
+
+* **Secondary and Aggregate Indicators:** This investigation analyzes secondary data and publicly released international indicators alongside the FITPED AI Literacy questionnaire records. Access to external data sources is governed by the terms, protocols, and licensing frameworks of the respective issuing agencies.
+* **Participant Privacy Safeguards:** Original participant-level microdata will not be redistributed through this repository unless explicit data-sharing permissions and institutional approvals permit redistribution.
+* **Non-Pooling Integrity:** Independent external datasets are maintained at their native aggregation levels and are strictly not pooled at the individual respondent level.
+* **Documentation Commitment:** Where raw data redistribution is restricted, the repository provides comprehensive variable definitions, data source references, scale specifications, and analytical protocols to support scholarly scrutiny.
+* **Legal Terms of Reuse:** Repository materials, text, and original assets are distributed subject to the applicable repository license, while underlying third-party datasets remain subject to their original institutional copyright and data-use terms.
+
+---
+
+## 11. Reproducibility Documentation
+
+The repository is structured to document all methodological and analytical parameters:
+
+* Research design, conceptual demarcations, and analytical decisions.
+* Dataset provenance, institutional source citations, and variable coding definitions.
+* Scale construction, reliability assessments ($\text{Cronbach's } \alpha$), and distributional parameters.
+* Non-parametric correlation specifications ($\text{Spearman's } \rho$) and exploratory regressions.
+* Figure, table, and evidence-map specifications.
+* Explicit analytical limitations, non-causal boundaries, and measurement constraints.
+
+*Note: The provision of reproducibility documentation supports methodological transparency and does not imply that proprietary or restricted external datasets are directly redistributed.*
+
+---
+
+## 12. References and Data Sources
+
+* **Long, D., & Magerko, B. (2020).** What is AI Literacy? Competencies and Design Considerations. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems.*
+* **Ng, D. T. K., Leung, J. K. L., Chu, K. W. S., & Qiao, M. S. (2021).** AI Literacy: Definition, Teaching, Evaluation and Ethical Issues. *Computers and Education: Artificial Intelligence.*
+* **Almatrafi, O., Johri, A., & Lee, H. (2024).** A systematic review of AI literacy conceptualization, constructs, and implementation and assessment efforts (2019–2023). *Computers and Education: Open.*
+* **Lintner, M. (2024).** A systematic review of AI literacy scales. *Computers and Education: Artificial Intelligence.*
+* **Chiu, T. K. F., et al. (2024).** Developing and validating measures for AI literacy tests: From self-reported to objective measures. *Computers & Education.*
+* **Eurostat (2025).** *Generative AI Use Statistics across the EU27*. European Commission.
+* **International Telecommunication Union (ITU) (2025).** *ITU DataHub: Global Connectivity and Internet-Use Indicators*.
+* **World Bank.** *World Development Indicators (WDI)*. The World Bank Group.
+* **UNESCO Institute for Statistics (UIS).** *Digital Literacy Competency Framework*.
+* **OECD.** *Survey of Adult Skills (PIAAC Cycle 2)*. Organisation for Economic Co-operation and Development.
+* **IEA (2023).** *International Computer and Information Literacy Study (ICILS 2023)*. International Association for the Evaluation of Educational Achievement.
+* **Pew Research Center.** *Public Awareness and Attitudes Toward Artificial Intelligence*.
+* **Stanford Institute for Human-Centered Artificial Intelligence (HAI) (2026).** *Artificial Intelligence Index Report 2026*.
+* **International Labour Organization (ILO).** *Generative AI and Jobs: A Global Analysis of Potential Effects on Job Quantity and Quality*.
+
+---
+
+## 13. Citation and Metadata
+
+To reference this preprint or its accompanying analytical framework, please consult the repository's archived version on [Zenodo](https://zenodo.org/records/23103701) or cite the work using the provisional bibliographic metadata below:
+
+### BibTeX
+
+```bibtex
+@misc{bhalchandra2026ailiteracy,
+  author       = {Bhal Chandra, Binayak},
+  title        = {The AI Literacy Divide: Access, Capability, and Inequality in the Age of Generative AI},
+  year         = {2026},
+  publisher    = {GitHub},
+  journal      = {BINAYAKVERZ Research Preprint Series},
+  howpublished = {[https://github.com/binayakverz/the-ai-literacy-divide](https://github.com/binayakverz/the-ai-literacy-divide)},
+  note         = {ORCID: 0009-0005-7901-0926; Zenodo: 23103701}
+}
+
+```
+
+### APA (7th Edition)
+
+> Bhal Chandra, B. (2026). *The AI Literacy Divide: Access, Capability, and Inequality in the Age of Generative AI*. BINAYAKVERZ Research Preprint Series. https://github.com/binayakverz/the-ai-literacy-divide
+> 
+> 
+
+---
+
+## 14. Author Information
+
+**BINAYAK BHAL CHANDRA**
+
+*Researcher in Artificial Intelligence and Computer Science*
+
+*Founder & CEO, Binayak Bhaiya – Education and Research Center*
+
+* **ORCID:** [0009-0005-7901-0926](https://orcid.org/0009-0005-7901-0926)
+* **Web of Science ResearcherID:** [RFB-8357-2026](https://www.webofscience.com/wos/author/record/RFB-8357-2026)
+* **Google Scholar:** [Binayak Bhal Chandra](https://scholar.google.com/citations?user=NkFPkh4AAAAJ&hl=en)
+* **Official Gateway:** [binayakverz.com](https://binayakverz.com)
+* **Repository Hub:** [github.com/binayakverz/the-ai-literacy-divide](https://github.com/binayakverz/the-ai-literacy-divide)
+
+
+
+---
