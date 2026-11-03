@@ -20,8 +20,8 @@
 
 <br/>
 
-<a href="./manuscript/THE_AI_LITERACY_DIVIDE.pdf"><img src="https://img.shields.io/badge/READ_MANUSCRIPT-Download_PDF-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
-<a href="https://binayakverz.com"><img src="https://img.shields.io/badge/RESEARCH_HUB-binayakverz.com-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=0D1117" /></a>
+<a href="./manuscript/THE_AI_LITERACY_DIVIDE.pdf"><img src="[https://img.shields.io/badge/READ_MANUSCRIPT-Download_PDF-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white](https://img.shields.io/badge/READ_MANUSCRIPT-Download_PDF-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)" /></a>
+<a href="[https://binayakverz.com](https://binayakverz.com)"><img src="[https://img.shields.io/badge/RESEARCH_HUB-binayakverz.com-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=0D1117](https://img.shields.io/badge/RESEARCH_HUB-binayakverz.com-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=0D1117)" /></a>
 
 </div>
 
@@ -60,27 +60,29 @@ $$\mathbf{Digital\ Divide} \longrightarrow \mathbf{AI\ Access\ Divide} \longrigh
 
 > **Epistemological Boundary:** This sequence represents a **proposed conceptual and measurement architecture**, formulated to isolate distinct evaluation levels. It is **not** presented as an empirically verified causal pathway.
 
+<br/>
 
-flowchart LR
-    A[Digital Divide] --> B[AI Access Divide]
-    B --> C[AI Literacy Divide]
-    C --> D[Capability Divide]
-    D --> E[Effective-Use Divide]
-    E --> F[Benefit Divide]
-    
-    style A fill:#0d1117,stroke:#38bdf8,stroke-width:1px,color:#fff
-    style B fill:#0d1117,stroke:#38bdf8,stroke-width:1px,color:#fff
-    style C fill:#0d1117,stroke:#38bdf8,stroke-width:1px,color:#fff
-    style D fill:#0d1117,stroke:#facc15,stroke-width:1px,color:#fff
-    style E fill:#0d1117,stroke:#facc15,stroke-width:1px,color:#fff
-    style F fill:#0d1117,stroke:#22c55e,stroke-width:1px,color:#fff
+<div align="center">
 
+<img src="[https://img.shields.io/badge/Stage_1-Digital_Divide-0D1117?style=for-the-badge&logo=target&logoColor=38BDF8&labelColor=1E293B](https://img.shields.io/badge/Stage_1-Digital_Divide-0D1117?style=for-the-badge&logo=target&logoColor=38BDF8&labelColor=1E293B)" />
+➔
+<img src="[https://img.shields.io/badge/Stage_2-AI_Access_Divide-0D1117?style=for-the-badge&logo=databricks&logoColor=38BDF8&labelColor=1E293B](https://img.shields.io/badge/Stage_2-AI_Access_Divide-0D1117?style=for-the-badge&logo=databricks&logoColor=38BDF8&labelColor=1E293B)" />
+➔
+<img src="[https://img.shields.io/badge/Stage_3-AI_Literacy_Divide-0D1117?style=for-the-badge&logo=bookstack&logoColor=38BDF8&labelColor=1E293B](https://img.shields.io/badge/Stage_3-AI_Literacy_Divide-0D1117?style=for-the-badge&logo=bookstack&logoColor=38BDF8&labelColor=1E293B)" />
+<br/><br/>
+➔
+<img src="[https://img.shields.io/badge/Stage_4-Capability_Divide-0D1117?style=for-the-badge&logo=codewars&logoColor=FACC15&labelColor=1E293B](https://img.shields.io/badge/Stage_4-Capability_Divide-0D1117?style=for-the-badge&logo=codewars&logoColor=FACC15&labelColor=1E293B)" />
+➔
+<img src="[https://img.shields.io/badge/Stage_5-Effective--Use_Divide-0D1117?style=for-the-badge&logo=speedtest&logoColor=FACC15&labelColor=1E293B](https://img.shields.io/badge/Stage_5-Effective--Use_Divide-0D1117?style=for-the-badge&logo=speedtest&logoColor=FACC15&labelColor=1E293B)" />
+➔
+<img src="[https://img.shields.io/badge/Stage_6-Benefit_Divide-0D1117?style=for-the-badge&logo=shield&logoColor=22C55E&labelColor=1E293B](https://img.shields.io/badge/Stage_6-Benefit_Divide-0D1117?style=for-the-badge&logo=shield&logoColor=22C55E&labelColor=1E293B)" />
 
+</div>
+
+<br/>
 
 ### Essential Methodological Distinctions
-
 To avoid systemic measurement errors and the conflation of subjective perceptions with functional outputs, the investigation strictly maintains the following analytical demarcations:
-
 * **Access $\neq$ AI Literacy:** Physical connectivity, interface access, and raw model availability do not constitute cognitive comprehension or literacy.
 * **Perceived AI Literacy $\neq$ Demonstrated AI Capability:** Self-reported literacy scales capture perceived self-efficacy; they do not serve as direct proxies for verified, performance-tested operational competence.
 * **AI Use $\neq$ Effective AI Use:** Gross frequency of generative AI interaction cannot be equated with critical, safe, or optimal deployment.
@@ -96,9 +98,7 @@ To avoid systemic measurement errors and the conflation of subjective perception
 **Research Design:** Secondary-data comparative quantitative analysis paired with structured, non-pooled cross-dataset evidence synthesis.
 
 ### 4.1 Primary Empirical Dataset (FITPED)
-
 Primary individual-level empirical investigations utilize the FITPED AI Literacy questionnaire administration:
-
 * **Total Survey Records:** 1,205
 * **Unique Participants:** 1,146
 * **Repeated Participant IDs:** 59
@@ -109,7 +109,7 @@ Analytical procedures include descriptive summaries, psychometric reliability es
 ### 4.2 Cross-Dataset Synthesis Architecture
 
 | Data Source | Primary Evidence Domain | Operational Measurement Level |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **FITPED** | Individual-level perceived AI literacy & psychological scales | Micro (Individual Respondent) |
 | **Eurostat** | Generative AI usage stratified by demographic and regional factors | Macro / Regional (EU27 Aggregates) |
 | **ITU DataHub** | Telecommunication infrastructure, connectivity, and internet access | Macro / National (Global & Regional) |
@@ -123,7 +123,6 @@ Analytical procedures include descriptive summaries, psychometric reliability es
 | **World Bank / Semrush** | Web-traffic indicators of consumer-facing GenAI platform adoption | Global Platform Traffic Proxies |
 
 ### 4.3 Methodological and Analytical Principles
-
 * **Absence of Micro-Pooling:** Independent empirical datasets are evaluated within their distinct scopes and are strictly not pooled at the individual respondent level.
 * **Measurement Level Fidelity:** Macro-level aggregate indicators retain their original unit of observation and are not disaggregated to infer individual characteristics.
 * **Instrument Boundaries:** Self-reported questionnaire scores are analyzed strictly as self-assessments, not objective skill benchmarks.
@@ -137,7 +136,7 @@ Analytical procedures include descriptive summaries, psychometric reliability es
 ### 5.1 FITPED AI Literacy Scale Psychometrics
 
 | Metric Parameter | Empirical Value |
-| --- | --- |
+| :--- | :--- |
 | **Total Survey Records** | 1,205 |
 | **Unique Participants** | 1,146 |
 | **Scale Mean** | **3.991 / 5.000** |
@@ -146,7 +145,6 @@ Analytical procedures include descriptive summaries, psychometric reliability es
 | **Internal Consistency (Cronbach's $\alpha$)** | **0.688** (Moderate reliability; original 5-item scale retained) |
 
 #### Item-Level Mean Trajectory ($L_1 - L_5$)
-
 * **Item $L_1$:** `4.559` — Basic conceptual familiarity with AI technology.
 * **Item $L_2$:** `4.529` — Awareness of AI applications in routine digital environments.
 * **Item $L_3$:** `3.954` — Contextual ability to utilize AI platforms.
@@ -154,11 +152,10 @@ Analytical procedures include descriptive summaries, psychometric reliability es
 * **Item $L_5$:** `3.684` — Applied self-efficacy in executing tasks using AI.
 
 ### 5.2 Psychological and Motivational Correlates (Spearman's $\rho$)
-
 Rank-order associations between perceived AI Literacy and related educational and psychological constructs:
 
 | Evaluated Construct | Spearman's $\rho$ | Observed Relationship Magnitude |
-| --- | --- | --- |
+| :--- | :---: | :--- |
 | **AI Readiness** | `+0.580` | Moderate-to-strong positive association |
 | **Relevance** | `+0.484` | Moderate positive association |
 | **Career Motivation** | `+0.450` | Moderate positive association |
@@ -172,40 +169,30 @@ Rank-order associations between perceived AI Literacy and related educational an
 *(Note: These correlation coefficients establish monotonic association and do not provide evidence of causal directionality.)*
 
 ### 5.3 Observed Group Differences (FITPED Sample)
-
 * **Gender Cohorts:** Male Participant Mean: `4.113` | Female Participant Mean: `3.752`
 * **Academic Disciplines:** IT Programme Participants: `4.107` | Education Programme Participants: `3.730`
 
 *(Epistemic Boundary: These group differences strictly describe the surveyed FITPED student cohort and must not be generalized as nationally representative estimates.)*
 
 ### 5.4 Cross-National Population Evidence (Eurostat 2025 EU27)
-
 Eurostat 2025 population data indicate that across the EU27 population aged 16–74, **32.7%** reported having used generative AI. Marked stratifications appear across demographic dimensions:
-
-* **Age Distribution:**
-* Ages 16–24: `63.8%`
-* Ages 65–74: `8%`
-
-
-* **Educational Attainment:**
-* High Formal Educational Attainment (Tertiary): `50%`
-* Low or No Formal Educational Attainment: `26%`
-
-
-* **Geographical Density:**
-* Urban Centers (Cities): `42%`
-* Rural Areas: `27%`
-
-
+* **Age Distribution:** 
+  * Ages 16–24: `63.8%`
+  * Ages 65–74: `8%`
+* **Educational Attainment:** 
+  * High Formal Educational Attainment (Tertiary): `50%`
+  * Low or No Formal Educational Attainment: `26%`
+* **Geographical Density:** 
+  * Urban Centers (Cities): `42%`
+  * Rural Areas: `27%`
 
 *(Epistemic Boundary: These metrics quantify self-reported adoption incidence; they do not measure performance-tested operational capability or effective critical deployment.)*
 
 ### 5.5 Digital Infrastructure Baselines: India (ITU 2025)
-
 DataHub indicators from the International Telecommunication Union (2025) quantify baseline internet connectivity in India:
 
 | Population Segment | Internet Use Proportion (%) |
-| --- | --- |
+| :--- | :---: |
 | **India Overall** | **70.0%** |
 | **Urban Population** | **79.9%** |
 | **Rural Population** | **64.9%** |
@@ -221,7 +208,6 @@ DataHub indicators from the International Telecommunication Union (2025) quantif
 The primary contribution of this research is the development of an **integrated multidimensional measurement architecture and a structured cross-dataset empirical synthesis** of emerging AI inequality.
 
 The investigation formally delineates a pervasive empirical measurement gap:
-
 > While public awareness and subjective self-reports are increasingly documented, the scientific literature currently lacks integrated, population-representative, psychometrically standardized, and longitudinal instruments capable of linking baseline technological access to demonstrated capability, verified effective use, and realised individual benefit across the same individuals.
 
 This research demonstrates the necessity of advancing beyond simple access metrics and self-reported awareness towards performance-tested capabilities and empirical evaluations of economic, educational, and cognitive outcomes. The study does not claim to establish a new population-wide AI literacy estimate or an empirically verified causal pathway.
@@ -231,7 +217,6 @@ This research demonstrates the necessity of advancing beyond simple access metri
 ## 7. Research Figures
 
 The study incorporates four foundational figures communicating its conceptual boundaries and findings:
-
 1. **Figure 1:** Integrated AI inequality measurement architecture.
 2. **Figure 2:** Empirical evidence architecture and cross-dataset synthesis.
 3. **Figure 3:** FITPED AI Literacy item-level profile and distribution.
@@ -277,18 +262,6 @@ the-ai-literacy-divide/
 ├── analysis/                      # Statistical evaluation specifications and computational workflows
 ├── supplementary/                 # Analytical appendices and data dictionaries
 └── references/                    # Bibliographic references (.bib and .md)
-
-```
-
----
-
-## 10. Data Availability and Research Integrity Safeguards
-
-* **Secondary and Aggregate Indicators:** This investigation analyzes secondary data and publicly released international indicators alongside the FITPED AI Literacy questionnaire records. Access to external data sources is governed by the terms, protocols, and licensing frameworks of the respective issuing agencies.
-* **Participant Privacy Safeguards:** Original participant-level microdata will not be redistributed through this repository unless explicit data-sharing permissions and institutional approvals permit redistribution.
-* **Non-Pooling Integrity:** Independent external datasets are maintained at their native aggregation levels and are strictly not pooled at the individual respondent level.
-* **Documentation Commitment:** Where raw data redistribution is restricted, the repository provides comprehensive variable definitions, data source references, scale specifications, and analytical protocols to support scholarly scrutiny.
-* **Legal Terms of Reuse:** Repository materials, text, and original assets are distributed subject to the applicable repository license, while underlying third-party datasets remain subject to their original institutional copyright and data-use terms.
 
 ---
 
