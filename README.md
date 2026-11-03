@@ -240,30 +240,23 @@ The study incorporates four foundational figures communicating its conceptual bo
 
 The repository maintains documentation, manuscript drafts, and reproducibility materials. Files and directories are organized according to the following layout (items not yet populated will be incorporated progressively):
 
-```text
-the-ai-literacy-divide/
-│
-├── README.md                      # Primary research documentation and synthesis
-├── LICENSE                        # Repository licensing documentation
-├── CITATION.cff                   # Machine-readable citation metadata
-│
-├── manuscript/
-│   ├── THE_AI_LITERACY_DIVIDE.pdf # Complete research preprint manuscript
-│   └── THE_AI_LITERACY_DIVIDE.docx
-│
-├── figures/
-│   ├── figure_1_conceptual_framework.png
-│   ├── figure_2_evidence_architecture.png
-│   ├── figure_3_ai_literacy_profile.png
-│   └── figure_4_evidence_map.png
-│
-├── tables/                        # Structured analytical and cross-dataset comparison tables
-├── methodology/                   # Variable coding, operational definitions, and protocol documentation
-├── analysis/                      # Statistical evaluation specifications and computational workflows
-├── supplementary/                 # Analytical appendices and data dictionaries
-└── references/                    # Bibliographic references (.bib and .md)
-
-```
+* 📁 **`the-ai-literacy-divide/`**
+  * 📄 **`README.md`** — Primary research documentation and synthesis
+  * 📄 **`LICENSE`** — Repository licensing documentation
+  * 📄 **`CITATION.cff`** — Machine-readable citation metadata
+  * 📁 **`manuscript/`**
+    * 📑 **`THE_AI_LITERACY_DIVIDE.pdf`** — Complete research preprint manuscript
+    * 📝 **`THE_AI_LITERACY_DIVIDE.docx`**
+  * 📁 **`figures/`**
+    * 🖼️ `figure_1_conceptual_framework.png`
+    * 🖼️ `figure_2_evidence_architecture.png`
+    * 🖼️ `figure_3_ai_literacy_profile.png`
+    * 🖼️ `figure_4_evidence_map.png`
+  * 📁 **`tables/`** — Structured analytical and cross-dataset comparison tables
+  * 📁 **`methodology/`** — Variable coding, operational definitions, and protocol documentation
+  * 📁 **`analysis/`** — Statistical evaluation specifications and computational workflows
+  * 📁 **`supplementary/`** — Analytical appendices and data dictionaries
+  * 📁 **`references/`** — Bibliographic references (.bib and .md)
 
 ## 10. Data Availability and Research Integrity Safeguards
 
