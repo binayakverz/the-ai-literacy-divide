@@ -75,7 +75,7 @@ flowchart LR
     style E fill:#0d1117,stroke:#facc15,stroke-width:1px,color:#fff
     style F fill:#0d1117,stroke:#22c55e,stroke-width:1px,color:#fff
 
-```
+
 
 ### Essential Methodological Distinctions
 
