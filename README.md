@@ -310,20 +310,41 @@ The repository is structured to document all methodological and analytical param
 
 ## 12. References and Data Sources
 
-- **Long, D., & Magerko, B. (2020).** What is AI Literacy? Competencies and Design Considerations. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems.*
-- **Ng, D. T. K., Leung, J. K. L., Chu, K. W. S., & Qiao, M. S. (2021).** AI Literacy: Definition, Teaching, Evaluation and Ethical Issues. *Computers and Education: Artificial Intelligence.*
-- **Almatrafi, O., Johri, A., & Lee, H. (2024).** A systematic review of AI literacy conceptualization, constructs, and implementation and assessment efforts (2019–2023). *Computers and Education: Open.*
-- **Lintner, M. (2024).** A systematic review of AI literacy scales. *Computers and Education: Artificial Intelligence.*
-- **Chiu, T. K. F., et al. (2024).** Developing and validating measures for AI literacy tests: From self-reported to objective measures. *Computers & Education.*
-- **Eurostat (2025).** *Generative AI Use Statistics across the EU27*. European Commission.
-- **International Telecommunication Union (ITU) (2025).** *ITU DataHub: Global Connectivity and Internet-Use Indicators*.
-- **World Bank.** *World Development Indicators (WDI)*. The World Bank Group.
-- **UNESCO Institute for Statistics (UIS).** *Digital Literacy Competency Framework*.
-- **OECD.** *Survey of Adult Skills (PIAAC Cycle 2)*. Organisation for Economic Co-operation and Development.
-- **IEA (2023).** *International Computer and Information Literacy Study (ICILS 2023)*. International Association for the Evaluation of Educational Achievement.
-- **Pew Research Center.** *Public Awareness and Attitudes Toward Artificial Intelligence*.
-- **Stanford Institute for Human-Centered Artificial Intelligence (HAI) (2026).** *Artificial Intelligence Index Report 2026*.
-- **International Labour Organization (ILO).** *Generative AI and Jobs: A Global Analysis of Potential Effects on Job Quantity and Quality*.
+### Foundational Research on AI Literacy
+
+- **Long, D., & Magerko, B. (2020).** [What Is AI Literacy? Competencies and Design Considerations](https://doi.org/10.1145/3313831.3376727). *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems.*
+
+- **Ng, D. T. K., Leung, J. K. L., Chu, K. W. S., & Qiao, M. S. (2021).** [AI Literacy: Definition, Teaching, Evaluation and Ethical Issues](https://doi.org/10.1002/pra2.487). *Proceedings of the Association for Information Science and Technology, 58*(1), 504–509.
+
+- **Almatrafi, O., Johri, A., & Lee, H. (2024).** [A Systematic Review of AI Literacy Conceptualization, Constructs, and Implementation and Assessment Efforts (2019–2023)](https://doi.org/10.1016/j.caeo.2024.100173). *Computers and Education: Open, 6*, 100173.
+
+- **Lintner, T. (2024).** [A Systematic Review of AI Literacy Scales](https://doi.org/10.1038/s41539-024-00264-4). *npj Science of Learning, 9*, Article 50.
+
+- **Chiu, T. K. F., et al. (2024).** [Developing and Validating Measures for AI Literacy Tests: From Self-Reported to Objective Measures](https://doi.org/10.1016/j.caeai.2024.100282). *Computers and Education: Artificial Intelligence, 7*, 100282.
+
+### International Data Sources and Institutional Reports
+
+- **Eurostat (2025).** [Use of Generative AI Tools by Individuals](https://ec.europa.eu/eurostat/databrowser/view/isoc_ai_iaiu/default/table). European Commission. Dataset code: `isoc_ai_iaiu`.
+
+- **International Telecommunication Union (ITU).** [ITU DataHub: Digital Development and Connectivity Indicators](https://datahub.itu.int/). International telecommunications and internet-use statistics.
+
+- **World Bank.** [World Development Indicators: Individuals Using the Internet (% of Population)](https://data.worldbank.org/indicator/IT.NET.USER.ZS). Indicator code: `IT.NET.USER.ZS`.
+
+- **UNESCO Institute for Statistics (UIS).** [A Global Framework of Reference on Digital Literacy Skills](https://www.uis.unesco.org/sites/default/files/medias/fichiers/2025/08/ip51-global-framework-reference-digital-literacy-skills-2018-en.pdf). UNESCO UIS.
+
+- **Organisation for Economic Co-operation and Development (OECD).** [Survey of Adult Skills (PIAAC)](https://www.oecd.org/en/about/programmes/piaac.html). OECD Programme for the International Assessment of Adult Competencies.
+
+- **International Association for the Evaluation of Educational Achievement (IEA).** [ICILS 2023: International Computer and Information Literacy Study](https://www.iea.nl/publications/icils-2023-international-report). International report on students’ computer and information literacy and computational thinking.
+
+- **Pew Research Center (2025).** [AI Awareness Around the World](https://www.pewresearch.org/2025/10/15/ai-awareness-around-the-world/). International survey of public awareness of artificial intelligence.
+
+- **Stanford Institute for Human-Centered Artificial Intelligence (HAI) (2026).** [The 2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report). Stanford University.
+
+- **International Labour Organization (ILO) (2023).** [Generative AI and Jobs: A Global Analysis of Potential Effects on Job Quantity and Quality](https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and). ILO Working Paper 96.
+
+---
+
+*Note: These sources cover different measurement levels and research purposes. Internet access, digital literacy, AI awareness, generative AI adoption, occupational exposure, and AI literacy are distinct constructs and should not be treated as interchangeable measures.*
 
 ---
 
