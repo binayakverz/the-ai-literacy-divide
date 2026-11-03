@@ -1,0 +1,13 @@
+﻿Source,Primary construct / evidence,Level,Role in this study
+FITPED AI Literacy Questionnaire dataset,Perceived AI literacy; related attitudes/readiness/intentions,Individual,Primary empirical dataset
+Eurostat (isoc_ai_iaiu),Reported GenAI use and inequality dimensions,Population,GenAI-use context
+ITU DataHub,Internet access/use and India disaggregation,Population / household,Digital-access context
+World Bank WDI,Individuals using the Internet (IT.NET.USER.ZS),Population,Corroborating access indicator
+UNESCO UIS,Digital-literacy framework / proficiency context,Framework / population,Broader capability context
+OECD PIAAC,Adult skills and problem-solving capability,Adult assessment,Performance-based capability context
+IEA ICILS,Computer and Information Literacy,School assessment,Performance-based digital-capability context
+Pew Research Center,AI awareness,Population survey,Awareness context
+Stanford AI Index,AI adoption/diffusion context,Aggregate,Adoption context
+International Labour Organization,Potential occupational GenAI exposure,Occupational / aggregate,Labour-market context
+World Bank/Semrush,Consumer-facing GenAI adoption/traffic,Aggregate,Income-group adoption context
+GLAT / AICOS and related studies,Objective AI/GenAI capability measurement,Selected samples,Emerging capability evidence

@@ -1,0 +1,17 @@
+﻿Analysis,Variable / Predictor,Estimate,95% CI,p
+Correlation (Spearman ρ),AI Readiness,.580,—,—
+Correlation (Spearman ρ),Relevance,.484,—,—
+Correlation (Spearman ρ),Career Motivation,.450,—,—
+Correlation (Spearman ρ),Behavioural Intention,.407,—,—
+Correlation (Spearman ρ),Social Goods,.367,—,—
+Correlation (Spearman ρ),Intrinsic Motivation,.365,—,—
+Correlation (Spearman ρ),Confidence,.335,—,—
+Correlation (Spearman ρ),Satisfaction,.330,—,—
+Correlation (Spearman ρ),AI Anxiety,−.165,—,—
+Regression,2023 vs. 2022,.018,"[−.141, .176]",.827
+Regression,2024 vs. 2022,−.108,"[−.185, −.032]",.006
+Regression,Age,.007,"[.000, .015]",.043
+Regression,Male vs. female,.217,"[.120, .315]",< .001
+Regression,IT programme,.210,"[.106, .313]",< .001
+Regression,log(1 + AI-course hours),.005,"[−.020, .029]",.717
+Regression,Model R²,.090,—,—

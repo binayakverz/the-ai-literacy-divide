@@ -1,0 +1,81 @@
+[
+  {
+    "table": 1,
+    "file": "table-1-data-sources-and-evidence-architecture.csv",
+    "rows_excluding_header": 12,
+    "columns": 4,
+    "headers": [
+      "Source",
+      "Primary construct / evidence",
+      "Level",
+      "Role in this study"
+    ]
+  },
+  {
+    "table": 2,
+    "file": "table-2-fitped-sample-and-ai-literacy-descriptives.csv",
+    "rows_excluding_header": 13,
+    "columns": 2,
+    "headers": [
+      "Measure",
+      "Value"
+    ]
+  },
+  {
+    "table": 3,
+    "file": "table-3-fitped-correlations-and-regression.csv",
+    "rows_excluding_header": 16,
+    "columns": 5,
+    "headers": [
+      "Analysis",
+      "Variable / Predictor",
+      "Estimate",
+      "95% CI",
+      "p"
+    ]
+  },
+  {
+    "table": 4,
+    "file": "table-4-eurostat-genai-use-inequalities.csv",
+    "rows_excluding_header": 10,
+    "columns": 3,
+    "headers": [
+      "Dimension",
+      "Comparison",
+      "Observed values"
+    ]
+  },
+  {
+    "table": 5,
+    "file": "table-5-india-digital-access-indicators.csv",
+    "rows_excluding_header": 12,
+    "columns": 3,
+    "headers": [
+      "Indicator",
+      "Year",
+      "Value"
+    ]
+  },
+  {
+    "table": 6,
+    "file": "table-6-construct-operationalisation-and-measurement-status.csv",
+    "rows_excluding_header": 9,
+    "columns": 3,
+    "headers": [
+      "Construct",
+      "Operational meaning in this study",
+      "Empirical status"
+    ]
+  },
+  {
+    "table": 7,
+    "file": "table-7-framework-evidence-and-measurement-gaps.csv",
+    "rows_excluding_header": 9,
+    "columns": 3,
+    "headers": [
+      "Framework stage",
+      "Evidence available",
+      "Measurement status in present study"
+    ]
+  }
+]
