@@ -1,0 +1,25 @@
+﻿variable_or_construct,description,measurement_or_handling,role
+participant_id,Participant identifier,Used to identify 59 repeated IDs for matched subset,Identifier
+year,Survey observation year,"2022, 2023, 2024 as reported",FITPED covariate/grouping
+age,Participant age,As supplied in FITPED data,FITPED covariate
+gender,Participant gender,As supplied in FITPED data,FITPED grouping/covariate
+country,Participant country code,Country codes retained as reported; SK denotes Slovakia,FITPED grouping
+study_programme,Study programme category,IT-program indicator used in exploratory regression,FITPED covariate/grouping
+AI-course hours,Hours of AI courses,Exploratory model uses log(1 + AI-course hours),FITPED covariate
+L1-L5,Five AI-literacy questionnaire items,Observed 0–5 item scale; scale mean requires at least 80% valid items,Primary construct items
+AI Literacy,Mean of valid L1–L5 items,Original five-item structure retained,Primary outcome
+AI Readiness,Documented FITPED construct,Construct score under locked valid-item rule,Secondary construct
+Relevance,Documented FITPED construct,Construct score under locked valid-item rule,Secondary construct
+Career Motivation,Documented FITPED construct,Construct score under locked valid-item rule,Secondary construct
+Social Goods,Documented FITPED construct,Construct score under locked valid-item rule,Secondary construct
+Intrinsic Motivation (IM),Documented FITPED construct,Zero-coded non-applicable values treated as missing,Secondary construct
+Satisfaction (S),Documented FITPED construct,Zero-coded non-applicable values treated as missing,Secondary construct
+Confidence (C),Documented FITPED construct,Zero-coded non-applicable values treated as missing,Secondary construct
+Behavioural Intention (BI),Documented FITPED construct,Zero-coded non-applicable values treated as missing,Secondary construct
+AI Anxiety,Documented FITPED construct,Construct score under locked valid-item rule,Secondary construct
+Eurostat isoc_ai_iaiu,Reported GenAI use indicators,Aggregate population context; not merged with FITPED respondents,External evidence
+ITU DataHub / WDI IT.NET.USER.ZS,Internet access/use indicators,Population/household access context,External evidence
+PIAAC / ICILS,Adult or school digital capability assessments,Broader digital capability context; not GenAI literacy measures,External evidence
+Pew AI awareness,AI awareness survey indicators,"Awareness context, not demonstrated capability",External evidence
+ILO GenAI exposure,Potential occupational exposure,Exposure is not job loss or realised benefit,External evidence
+World Bank/Semrush,Consumer-facing GenAI adoption/traffic proxies,"Traffic/adoption context, not effective-use measurement",External evidence
