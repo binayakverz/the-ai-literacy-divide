@@ -263,6 +263,16 @@ the-ai-literacy-divide/
 ├── supplementary/                 # Analytical appendices and data dictionaries
 └── references/                    # Bibliographic references (.bib and .md)
 
+```
+
+## 10. Data Availability and Research Integrity Safeguards
+
+* **Secondary and Aggregate Indicators:** This investigation analyzes secondary data and publicly released international indicators alongside the FITPED AI Literacy questionnaire records. Access to external data sources is governed by the terms, protocols, and licensing frameworks of the respective issuing agencies.
+* **Participant Privacy Safeguards:** Original participant-level microdata will not be redistributed through this repository unless explicit data-sharing permissions and institutional approvals permit redistribution.
+* **Non-Pooling Integrity:** Independent external datasets are maintained at their native aggregation levels and are strictly not pooled at the individual respondent level.
+* **Documentation Commitment:** Where raw data redistribution is restricted, the repository provides comprehensive variable definitions, data source references, scale specifications, and analytical protocols to support scholarly scrutiny.
+* **Legal Terms of Reuse:** Repository materials, text, and original assets are distributed subject to the applicable repository license, while underlying third-party datasets remain subject to their original institutional copyright and data-use terms.
+
 ---
 
 ## 11. Reproducibility Documentation
@@ -312,7 +322,7 @@ To reference this preprint or its accompanying analytical framework, please cons
   year         = {2026},
   publisher    = {GitHub},
   journal      = {BINAYAKVERZ Research Preprint Series},
-  howpublished = {[https://github.com/binayakverz/the-ai-literacy-divide](https://github.com/binayakverz/the-ai-literacy-divide)},
+  howpublished = {\url{[https://github.com/binayakverz/the-ai-literacy-divide](https://github.com/binayakverz/the-ai-literacy-divide)}},
   note         = {ORCID: 0009-0005-7901-0926; Zenodo: 23103701}
 }
 
@@ -321,8 +331,6 @@ To reference this preprint or its accompanying analytical framework, please cons
 ### APA (7th Edition)
 
 > Bhal Chandra, B. (2026). *The AI Literacy Divide: Access, Capability, and Inequality in the Age of Generative AI*. BINAYAKVERZ Research Preprint Series. https://github.com/binayakverz/the-ai-literacy-divide
-> 
-> 
 
 ---
 
@@ -339,7 +347,5 @@ To reference this preprint or its accompanying analytical framework, please cons
 * **Google Scholar:** [Binayak Bhal Chandra](https://scholar.google.com/citations?user=NkFPkh4AAAAJ&hl=en)
 * **Official Gateway:** [binayakverz.com](https://binayakverz.com)
 * **Repository Hub:** [github.com/binayakverz/the-ai-literacy-divide](https://github.com/binayakverz/the-ai-literacy-divide)
-
-
 
 ---
