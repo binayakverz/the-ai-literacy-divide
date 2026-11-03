@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this research repository, please cite it using the metadata below."
+title: "The AI Literacy Divide: Access, Capability, and Inequality in the Age of Generative AI"
+authors:
+  - family-names: "Bhal Chandra"
+    given-names: "Binayak"
+    orcid: "https://orcid.org/0009-0005-7901-0926"
+version: "1.0.0"
+date-released: "2026-11-03"
+url: "https://github.com/binayakverz/the-ai-literacy-divide"
+license: "CC-BY-4.0"
+abstract: >-
+  This research examines disparities in access, perceived AI literacy,
+  capability, effective use, and realised benefit in the age of generative AI.
+  It combines a comparative quantitative analysis of individual-level FITPED
+  AI Literacy questionnaire data with a structured synthesis of independent
+  international indicators. The repository provides the research manuscript,
+  figures, methodological documentation, references, and supporting materials.
+keywords:
+  - artificial intelligence
+  - AI literacy
+  - generative AI
+  - digital inequality
+  - digital divide
+  - research reproducibility
